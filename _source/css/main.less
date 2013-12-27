@@ -1,111 +1,45 @@
-// It’s ridiculous how much less.js sucks.
-// At the time of writing, less.js doesn’t support string interpolation in
-// @import statements. And that issue has been discussed FOR OVER A YEAR:
-// https://github.com/cloudhead/less.js/issues/410
-// Apparently any attempt to patch this consistently requires a large amount of
-// API changes. I cannot express the amount of fail involved here.
-
-// FIXME Wait for less.js to suck less.
-//@bpath: '../../_deps/bootstrap/less';
-
-// Core variables and mixins
-@import '../../_deps/bootstrap/less/variables.less'; // Modify this for custom colors, font-sizes, etc
-@import '../../_deps/bootstrap/less/mixins.less';
-
-// CSS Reset
-@import '../../_deps/bootstrap/less/reset.less';
-
-// Grid system and page structure
-@import '../../_deps/bootstrap/less/scaffolding.less';
-@import '../../_deps/bootstrap/less/grid.less';
-@import '../../_deps/bootstrap/less/layouts.less';
-
-// Base CSS
-@import '../../_deps/bootstrap/less/type.less';
-@import '../../_deps/bootstrap/less/code.less';
-@import '../../_deps/bootstrap/less/forms.less';
-@import '../../_deps/bootstrap/less/tables.less';
-
-// Components: common
-@import '../../_deps/bootstrap/less/sprites.less';
-@import '../../_deps/bootstrap/less/dropdowns.less';
-@import '../../_deps/bootstrap/less/wells.less';
-@import '../../_deps/bootstrap/less/component-animations.less';
-@import '../../_deps/bootstrap/less/close.less';
-
-// Components: Buttons & Alerts
-@import '../../_deps/bootstrap/less/buttons.less';
-@import '../../_deps/bootstrap/less/button-groups.less';
-@import '../../_deps/bootstrap/less/alerts.less'; // Note: alerts share common CSS with buttons and thus have styles in buttons.less
-
-// Components: Nav
-@import '../../_deps/bootstrap/less/navs.less';
-@import '../../_deps/bootstrap/less/navbar.less';
-@import '../../_deps/bootstrap/less/breadcrumbs.less';
-@import '../../_deps/bootstrap/less/pagination.less';
-@import '../../_deps/bootstrap/less/pager.less';
-
-// Components: Popovers
-@import '../../_deps/bootstrap/less/modals.less';
-@import '../../_deps/bootstrap/less/tooltip.less';
-@import '../../_deps/bootstrap/less/popovers.less';
-
-// Components: Misc
-@import '../../_deps/bootstrap/less/thumbnails.less';
-@import '../../_deps/bootstrap/less/media.less';
-@import '../../_deps/bootstrap/less/labels-badges.less';
-@import '../../_deps/bootstrap/less/progress-bars.less';
-@import '../../_deps/bootstrap/less/accordion.less';
-@import '../../_deps/bootstrap/less/carousel.less';
-@import '../../_deps/bootstrap/less/hero-unit.less';
-
-// Utility classes
-@import '../../_deps/bootstrap/less/utilities.less'; // Has to be last to override when necessary
-
-// Source code syntax highlighting
-@import '_include/prettyprint.less';
+@import '_include/includes.less';
 
 @left-border: 300px;
 
 header {
-    background: url(../img/header-background.jpg) no-repeat;
-    background-attachment: fixed;
-    height: 150px;
-    padding: 100px 0 0;
+  background: @white;
+  height: 150px;
+  padding: 100px 0 0;
 }
 
 header h1 {
-    margin: 0;
-    padding: 0 0 0 @left-border;
-    width: 800px;
+  margin: 0;
+  padding: 0 0 0 @left-border;
+  width: 800px;
 }
 
 article {
-    margin: 1cm 0;
-    padding: 0 0 0 @left-border;
-    width: 600px;
+  margin: 1cm 0;
+  padding: 0 0 0 @left-border;
+  width: 600px;
 }
 
 section p {
-    text-align: justify;
+  text-align: justify;
 }
 
 section h1 {
-    font-size: 2em;
+  font-size: 2em;
 
-    &:before {
-        content: '¶';
-        font-family: Times;
-        font-style: italic;
-        //color: @grayLight;
-        display: block;
-        float: left;
-        margin: 0 0 0 -1.5em;
-        visibility: hidden;
-        width: 1.5m;
-    }
+  &:before {
+    content: '¶';
+    font-family: Times;
+    font-style: italic;
+    //color: @grayLight;
+      display: block;
+    float: left;
+    margin: 0 0 0 -1.5em;
+    visibility: hidden;
+    width: 1.5m;
+  }
 
-    &:hover:before {
-        visibility: visible;
-    }
+  &:hover:before {
+    visibility: visible;
+  }
 }
