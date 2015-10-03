@@ -1,10 +1,7 @@
 ---
-title: klmr.me
+title: What’s modern C++?
 layout: default
 ---
-What’s modern C++?
-==================
-
 <section>
 
 Certainly one of the most influential things I’ve ever published – I don’t know
