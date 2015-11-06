@@ -1,57 +1,78 @@
 @import '_include/includes.less';
 
-@left-border: 300px;
-@content-width: 700px;
-
 header {
+  .container-fluid();
   background: @base02 url(../img/blue-sand.png) repeat;
   color: @base2;
   height: 150px;
   padding: 100px 0 0;
-}
 
-header h1 {
-  margin: 0;
-  padding: 0 0 0 @left-border;
-  max-width: @content-width;
-}
+  & > div {
+    #grid.fluid.row-fluid();
 
-header h1 .klmr {
-    font-family: Futura;
-    font-variant: small-caps;
-}
+    h1 {
+      margin: 0;
+      #grid.fluid.span(8);
+      #grid.fluid.offset(2);
 
-header h1 .klmr-me {
-    font-family: Palatino, Palatino Linotype;
-    font-style: italic;
+      .klmr {
+        font-family: Futura;
+        font-variant: small-caps;
+      }
+
+      .klmr-me {
+        font-family: Palatino, Palatino Linotype;
+        font-style: italic;
+      }
+    }
+  }
 }
 
 article {
-  margin: 1cm 0;
-  padding: 0 0 0 @left-border;
-  max-width: @content-width;
+  #grid.fluid.row-fluid();
+
+  > h1 {
+    #grid.fluid.span(8);
+    #grid.fluid.offset(2);
+  }
 }
 
-section p {
-  text-align: justify;
-}
+section {
+  #grid.fluid.span(8);
+  #grid.fluid.offset(2);
 
-section h1 {
-  font-size: 2em;
-
-  &:before {
-    content: '¶';
-    font-family: Times;
-    font-style: italic;
-    //color: @grayLight;
-    display: block;
-    float: left;
-    margin: 0 0 0 -1.5em;
-    visibility: hidden;
-    width: 1.5m;
+  p {
+    text-align: justify;
   }
 
-  &:hover:before {
-    visibility: visible;
+  h1 {
+    font-size: 2em;
+    margin-top: 1em;
+
+    &:before {
+      content: '¶';
+      font-family: Times;
+      font-style: italic;
+      display: block;
+      float: left;
+      margin: 0 0 0 -1.5em;
+      visibility: hidden;
+      width: 1.5m;
+    }
+
+    &:hover:before {
+      visibility: visible;
+    }
+  }
+}
+
+footer {
+  margin: 0;
+  background: @base02;
+  color: @base2;
+  padding: 1em;
+
+  p {
+    text-align: center;
   }
 }
