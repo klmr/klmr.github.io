@@ -12,15 +12,16 @@ I’ve been up to:
 <section>
 # Research
 
-My [PhD thesis][] was about “Investigating the link between tRNA and mRNA
-abundance in mammals”.
+My current work is on the regulation of translation in mammals through changes
+in tRNA abundance and codon usage. I am also looking at the extended polymerase
+III transcriptome, in particular SINEs. My [PhD thesis][] was titled
+*“Investigating the link between tRNA and mRNA abundance in mammals”*.
 
 Before this, I’ve worked in algorithms and software development, in particular
 implementing high-throughput sequencing read mapping tools, and creating
 frameworks for the automatic parallelisation of high-performance code on
-multicore architecture.
-
-I have also done work in cell regulatory networks using Petri nets.
+multicore architecture. I have also done work in cell regulatory networks using
+Petri nets.
 </section>
 
 <section>
