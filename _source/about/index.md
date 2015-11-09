@@ -4,9 +4,9 @@ layout: default
 ---
 
 <section>
-I’m a researcher at the [University of Cambridge][] & [EMBL][]-[EBI][]. I
-analyse genomic data to answer biological questions. Here are some of the things
-I’ve been up to:
+I’m a postdoctoral researcher at the [University of Cambridge][] &
+[EMBL][]-[EBI][]. I analyse genomic data to answer biological questions. Here
+are some of the things I’ve been up to:
 </section>
 
 <section>
@@ -29,15 +29,15 @@ Petri nets.
 
 I’m the developer of ‹[modules][]›, am alternative [R][] code modularisation
 system. It replaces conventional R packages and fixes [some of its
-flaw][modules-rationale]. The mechanism is borrowed from Python packages and
+flaws][modules-rationale]. The mechanism is borrowed from Python packages and
 JavaScript modules.
 
 I developed the first version of the [LaTeX][] package ‹[minted][]›, which
 provides code pretty-printing by wrapping [Pygments][].
 
 I strive to make development with [C++][] less painful by showcasing the use of
-clean, high-level code over low-level constructs. C++11 has made this immensely
-easier.
+clean, high-level code over low-level constructs. [C++11][] has made this
+immensely easier.
 </section>
 
 <section>
@@ -80,6 +80,16 @@ For more, see my [Google Scholar profile][].
 [You can view my CV online][cv]. Or you can view the [source code][cv-source].
 </section>
 
+<section>
+# Online
+
+You can follow my activity online:
+
+* On [Twitter][]
+* On [Stack Overflow][]
+* On [Github][]
+</section>
+
 [University of Cambridge]: http://www.cam.ac.uk/
 [EMBL]: http://embl.org
 [EBI]: http://www.ebi.ac.uk
@@ -91,6 +101,7 @@ For more, see my [Google Scholar profile][].
 [minted]: http://ctan.org/pkg/minted
 [Pygments]: http://pygments.org/
 [C++]: https://isocpp.org/
+[C++11]: https://en.wikipedia.org/wiki/C%2B%2B11
 [C++ for loop]: https://github.com/klmr/cpp-ranges
 [Google Scholar profile]: https://scholar.google.com/citations?user=ALuSMe8AAAAJ&hl=en
 [bib-1]: http://dx.doi.org/10.1101/gr.176784.114
