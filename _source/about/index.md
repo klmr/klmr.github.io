@@ -27,7 +27,7 @@ Petri nets.
 <section>
 # Hacking
 
-I’m the developer of ‹[modules][]›, am alternative [R][] code modularisation
+I’m the developer of ‹[modules][]›, an alternative [R][] code modularisation
 system. It replaces conventional R packages and fixes [some of its
 flaws][modules-rationale]. The mechanism is borrowed from Python packages and
 JavaScript modules.
@@ -107,3 +107,6 @@ You can follow my activity online:
 [bib-1]: http://dx.doi.org/10.1101/gr.176784.114
 [cv]: …
 [cv-source]: https://github.com/klmr/cv
+[Twitter]: http://twitter.com/klmr
+[Stack Overflow]: stackoverflow.com/users/1968/konrad-rudolph
+[Github]: https://github.com/klmr
