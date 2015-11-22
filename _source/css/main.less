@@ -69,10 +69,16 @@ section {
 footer {
   margin: 0;
   background: @base02;
-  color: @base2;
+  color: darken(@base02, 15%);
   padding: 1em;
 
   p {
     text-align: center;
+    font-size: 0.8em;
+    text-shadow: 0px 1px 0px lighten(@base02, 10%);
+  }
+
+  a, a:hover {
+      color: inherit;
   }
 }
