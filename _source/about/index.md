@@ -77,7 +77,7 @@ For more, see my [Google Scholar profile][].
 <section>
 # CV
 
-[You can view my CV online][cv]. Or you can view the [source code][cv-source].
+[You can download my CV][cv], or view the [source code][cv-source].
 </section>
 
 <section>
