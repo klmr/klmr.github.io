@@ -5,17 +5,18 @@ layout: default
 
 <section>
 I’m a postdoctoral researcher at the [University of Cambridge][] &
-[EMBL][]-[EBI][]. I analyse genomic data to answer biological questions. Here
-are some of the things I’ve been up to:
+<abbr>[EMBL][]</abbr>-<abbr>[EBI][]</abbr>. I analyse genomic data to answer
+biological questions. Here are some of the things I’ve been up to:
 </section>
 
 <section>
 # Research
 
 My current work is on the regulation of translation in mammals through changes
-in tRNA abundance and codon usage. I am also looking at the extended polymerase
-III transcriptome, in particular SINEs. My [PhD thesis][] was titled
-*“Investigating the link between tRNA and mRNA abundance in mammals”*.
+in <abbr>tRNA</abbr> abundance and codon usage. I am also looking at the
+extended polymerase III transcriptome, in particular <abbr>SINE</abbr>s. My [PhD
+thesis][] was titled *“Investigating the link between <abbr>tRNA</abbr> and
+<abbr>mRNA</abbr> abundance in mammals”*.
 
 Before this, I’ve worked in algorithms and software development, in particular
 implementing high-throughput sequencing read mapping tools, and creating
@@ -45,17 +46,17 @@ immensely easier.
 
 I have, at various times, taught on the following subjects:
 
-* High-throughput sequencing with focus on RNA-seq & ChIP-seq
+* High-throughput sequencing with focus on <abbr>RNA</abbr>-seq & ChIP-seq
   <small>(University of Cambridge)</small>
 * Computer science 101/102 <small>(Freie Universität Berlin)</small>
 * Algorithms in bioinformatics <small>(Freie Universität Berlin)</small>
 * Database systems <small>(Freie Universität Berlin)</small>
 * C++ <small>(Freie Universität Berlin)</small>
 * VB <small>(ActiveVB workshop)</small>
-* Unix/Bash <small>(EMBL workshop)</small>
-* LaTeX <small>(EMBL workshop)</small>
-* R <small>(EMBL workshop)</small>
-* Git <small>(EMBL workshop)</small>
+* Unix/Bash <small>(<abbr>EMBL</abbr> workshop)</small>
+* LaTeX <small>(<abbr>EMBL</abbr> workshop)</small>
+* R <small>(<abbr>EMBL</abbr> workshop)</small>
+* Git <small>(<abbr>EMBL</abbr> workshop)</small>
 </section>
 
 <section>
@@ -64,10 +65,10 @@ I have, at various times, taught on the following subjects:
 * <span class="bib authors">B. M. Schmitt\*, K. L. M. Rudolph\*, P. Karagianni,
   N. A. Fonseca, R. J. White, I. Talianidis, D. T. Odom, J. C. Marioni, & C.
   Kutter</span>: [<span class="bib title">“High-resolution mapping of
-  transcriptional dynamics across tissue development reveals a stable mRNA–tRNA
-  interface”</span>][bib-1]. <span class="bib journal">Genome Res</span>, <span
-  class="bib issue">24(11):1797–807</span> (<span class="bib date">Nov
-  2014</span>)
+  transcriptional dynamics across tissue development reveals a stable
+  <abbr>mRNA</abbr>–<abbr>tRNA</abbr> interface”</span>][bib-1]. <span
+  class="bib journal">Genome Res</span>, <span class="bib
+  issue">24(11):1797–807</span> (<span class="bib date">Nov 2014</span>)
 
 <small>\* indicates joint first authors</small>
 
@@ -77,7 +78,7 @@ For more, see my [Google Scholar profile][].
 <section>
 # CV
 
-[You can download my CV][cv], or view the [source code][cv-source].
+[You can download my <abbr>CV</abbr>][cv], or view the [source code][cv-source].
 </section>
 
 <section>
