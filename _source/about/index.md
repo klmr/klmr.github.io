@@ -21,8 +21,7 @@ thesis][] was titled *“Investigating the link between <abbr>tRNA</abbr> and
 Before this, I’ve worked in algorithms and software development, in particular
 implementing high-throughput sequencing read mapping tools, and creating
 frameworks for the automatic parallelisation of high-performance code on
-multicore architecture. I have also done work in cell regulatory networks using
-Petri nets.
+multicore architecture. I have also done work in cell regulatory networks.
 </section>
 
 <section>
