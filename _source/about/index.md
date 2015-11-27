@@ -85,9 +85,9 @@ For more, see my [Google Scholar profile][].
 
 You can follow my activity online:
 
-* On [Twitter][]
-* On [Stack Overflow][]
 * On [Github][]
+* On [Stack Overflow][]
+* On [Twitter][]
 </section>
 
 [University of Cambridge]: http://www.cam.ac.uk/
