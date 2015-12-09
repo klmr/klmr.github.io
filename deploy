@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+
+# Configuration
+remote=origin
+remote_target=master
+main_branch=develop
+build_cmd='make build'
+destination=_site
+
+cleanup() {
+    git checkout "$main_branch"
+}
+
+trap cleanup EXIT
+
+git checkout "$main_branch"
+git branch -D "$remote_target"
+git checkout -b "$remote_target"
+$build_cmd
+
+git add -f "$destination"
+git com -m "New version $(date)"
+git filter-branch --subdirectory-filter "$destination/" -f
+
+git push "$remote" "$remote_target" --force
+
+# vim: ft=sh
