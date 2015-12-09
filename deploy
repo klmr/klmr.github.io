@@ -1,10 +1,8 @@
 #!/usr/bin/env bash
 
 # Configuration
-remote="$(git remote | head -n 1)"
 remote_target=master
 main_branch=develop
-build_cmd='make build'
 destination=_site
 
 cleanup() {
@@ -13,6 +11,7 @@ cleanup() {
 
 trap cleanup EXIT
 
+remote="$(git remote | head -n 1)"
 git branch -D "$remote_target"
 git checkout -b "$remote_target"
 
