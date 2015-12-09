@@ -105,7 +105,7 @@ You can follow my activity online:
 [C++ for loop]: https://github.com/klmr/cpp-ranges
 [Google Scholar profile]: https://scholar.google.com/citations?user=ALuSMe8AAAAJ&hl=en
 [bib-1]: http://dx.doi.org/10.1101/gr.176784.114
-[cv]: …
+[cv]: klmr-cv.pdf
 [cv-source]: https://github.com/klmr/cv
 [Twitter]: http://twitter.com/klmr
 [Stack Overflow]: stackoverflow.com/users/1968/konrad-rudolph
