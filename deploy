@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Configuration
-remote=origin
+remote="$(git remote | head -n 1)"
 remote_target=master
 main_branch=develop
 build_cmd='make build'
