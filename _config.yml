@@ -2,5 +2,8 @@ source: _source
 highlighter: pygments
 markdown: kramdown
 
+gems:
+    - jekyll-redirect-from
+
 kramdown:
     parse_block_html: true
