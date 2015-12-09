@@ -1,0 +1,162 @@
+<!--
+Google IO 2012 HTML5 Slide Template
+
+Authors: Eric Bidelman <ebidel@gmail.com>
+         Luke Mahé <lukem@google.com>
+
+URL: https://code.google.com/p/io-2012-slides
+
+Statically compiled on 2013-02-17 23:42
+-->
+<!DOCTYPE html>
+<html><head>
+  <title>Modern C++</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">-->
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+  <!--This one seems to work all the time, but really small on ipad-->
+  <!--<meta name="viewport" content="initial-scale=0.4">-->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="stylesheet" media="all" href="theme/css/default.css">
+  <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="theme/css/phone.css">
+  <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="order" src="js/order.js"></script><script type="text/javascript" charset="utf-8" data-requirecontext="_" data-requiremodule="modernizr.custom.45394" src="js/modernizr.custom.45394.js"></script><script type="text/javascript" charset="utf-8" data-requirecontext="_" data-requiremodule="prettify/prettify" src="js/prettify/prettify.js"></script><script type="text/javascript" charset="utf-8" data-requirecontext="_" data-requiremodule="hammer" src="js/hammer.js"></script><script type="text/javascript" charset="utf-8" data-requirecontext="_" data-requiremodule="slide-controller" src="js/slide-controller.js"></script><script type="text/javascript" charset="utf-8" data-requirecontext="_" data-requiremodule="slide-deck" src="js/slide-deck.js"></script><base target="_blank"> <!-- This amazingness opens all links in a new tab. -->
+  <script data-main="js/slides" src="js/require-1.0.8.min.js"></script>
+</head>
+<body style="opacity: 0" class="loaded">
+
+<slides class="layout-widescreen">
+
+  <slide class="title-slide nobackground current" data-slide-num="1" data-total-slides="13">
+    <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+    <hgroup class="flexbox vcenter">
+      <h1 data-config-title="">Modern C++</h1>
+      <h2 data-config-subtitle=""><!-- populated from slide_config.json --></h2>
+      <p data-config-presenter=""><a href="http://twitter.com/klmr">@klmr</a><br></p>
+      <p class="license"><small><a href="http://creativecommons.org/choose/zero/">(CC0)</a></small></p>
+    </hgroup>
+  </slide>
+
+  <slide class="next" data-slide-num="2" data-total-slides="13">
+    <article class="flexbox vcenter">
+      <p>Don’t use f*cking pointers.</p>
+    </article>
+  </slide>
+
+  <slide class="far-next" data-slide-num="3" data-total-slides="13">
+    <article class="flexbox vcenter">
+      <p>No, seriously.</p>
+    </article>
+  </slide>
+
+  <slide data-slide-num="4" data-total-slides="13">
+    <article class="flexbox vcenter">
+      <pre class="prettyprint" data-lang="cpp"><span class="kwd">int</span><span class="pun">*</span><span class="pln"> pi </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">new</span><span class="pln"> </span><span class="kwd">int</span><span class="pun">;</span></pre>
+      <img src="images/arrow.png" alt="">
+      <pre class="prettyprint" data-lang="cpp"><span class="kwd">int</span><span class="pln"> i</span><span class="pun">;</span></pre>
+    </article>
+  </slide>
+
+  <slide data-slide-num="5" data-total-slides="13">
+    <article class="flexbox vcenter">
+      <pre class="prettyprint" data-lang="cpp"><span class="kwd">int</span><span class="pun">*</span><span class="pln"> arr </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">new</span><span class="pln"> </span><span class="kwd">int</span><span class="pun">[</span><span class="lit">1024</span><span class="pun">];</span></pre>
+      <img src="images/arrow.png" alt="">
+      <pre class="prettyprint" data-lang="cpp"><span class="pln">std</span><span class="pun">::</span><span class="pln">array</span><span class="pun">&lt;</span><span class="kwd">int</span><span class="pun">,</span><span class="pln"> </span><span class="lit">1024</span><span class="pun">&gt;</span><span class="pln"> arr</span><span class="pun">;</span></pre>
+    </article>
+  </slide>
+
+  <slide data-slide-num="6" data-total-slides="13">
+    <article class="flexbox vcenter">
+      <pre class="prettyprint" data-lang="cpp"><span class="kwd">int</span><span class="pun">*</span><span class="pln"> arr </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">new</span><span class="pln"> </span><span class="kwd">int</span><span class="pun">[</span><span class="pln">n</span><span class="pun">];</span></pre>
+      <img src="images/arrow.png" alt="">
+      <pre class="prettyprint" data-lang="cpp"><span class="pln">std</span><span class="pun">::</span><span class="pln">vector</span><span class="str">&lt;int&gt;</span><span class="pln"> arr</span><span class="pun">(</span><span class="pln">n</span><span class="pun">);</span></pre>
+    </article>
+  </slide>
+
+  <slide data-slide-num="7" data-total-slides="13">
+    <article class="flexbox vcenter">
+      <pre class="prettyprint" data-lang="cpp"><span class="kwd">char</span><span class="pun">*</span><span class="pln"> str </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">new</span><span class="pln"> </span><span class="kwd">char</span><span class="pun">[</span><span class="lit">1024</span><span class="pun">]</span></pre>
+      <img src="images/arrow.png" alt="">
+      <pre class="prettyprint" data-lang="cpp"><span class="pln">std</span><span class="pun">::</span><span class="kwd">string</span><span class="pln"> str</span><span class="pun">;</span></pre>
+    </article>
+  </slide>
+
+  <slide data-slide-num="8" data-total-slides="13">
+    <article class="flexbox vcenter">
+      <pre class="prettyprint" data-lang="cpp"><span class="kwd">void</span><span class="pln"> draw_shape</span><span class="pun">(</span><span class="typ">Shape</span><span class="pln"> </span><span class="kwd">const</span><span class="pun">*</span><span class="pln"> shape</span><span class="pun">);</span><span class="pln">
+draw_shape</span><span class="pun">(</span><span class="kwd">new</span><span class="pln"> </span><span class="typ">Rectangle</span><span class="pun">);</span></pre>
+      <img src="images/arrow.png" alt="">
+      <pre class="prettyprint" data-lang="cpp"><span class="kwd">void</span><span class="pln"> draw_shape</span><span class="pun">(</span><span class="typ">Shape</span><span class="pln"> </span><span class="kwd">const</span><span class="pun">&amp;</span><span class="pln"> shape</span><span class="pun">);</span><span class="pln">
+draw_shape</span><span class="pun">(</span><span class="typ">Rectangle</span><span class="pun">());</span></pre>
+    </article>
+  </slide>
+
+  <slide data-slide-num="9" data-total-slides="13">
+    <article class="flexbox vcenter">
+      <pre class="prettyprint" data-lang="cpp"><span class="pln">huge_object</span><span class="pun">*</span><span class="pln"> build_new_object</span><span class="pun">()</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+  huge_object</span><span class="pun">*</span><span class="pln"> ret </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">new</span><span class="pln"> huge_object</span><span class="pun">;</span><span class="pln">
+  </span><span class="pun">…</span><span class="pln">
+  </span><span class="kwd">return</span><span class="pln"> ret</span><span class="pun">;</span><span class="pln">
+</span><span class="pun">}</span></pre>
+      <img src="images/arrow.png" alt="">
+      <pre class="prettyprint" data-lang="cpp"><span class="pln">huge_object build_new_object</span><span class="pun">()</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+  huge_object ret</span><span class="pun">;</span><span class="pln">
+  </span><span class="pun">…</span><span class="pln">
+  </span><span class="kwd">return</span><span class="pln"> ret</span><span class="pun">;</span><span class="pln">
+</span><span class="pun">}</span></pre>
+    </article>
+  </slide>
+
+  <slide data-slide-num="10" data-total-slides="13">
+    <article class="flexbox vcenter">
+      <pre class="prettyprint" data-lang="cpp"><span class="kwd">struct</span><span class="pln"> owner </span><span class="pun">{</span><span class="pln">
+  resource</span><span class="pun">*</span><span class="pln"> pr</span><span class="pun">;</span><span class="pln">
+  owner</span><span class="pun">()</span><span class="pln"> </span><span class="pun">:</span><span class="pln"> pr</span><span class="pun">(</span><span class="kwd">new</span><span class="pln"> resource</span><span class="pun">)</span><span class="pln"> </span><span class="pun">{</span><span class="pln"> </span><span class="pun">}</span><span class="pln">
+  </span><span class="pun">~</span><span class="pln">owner</span><span class="pun">()</span><span class="pln"> </span><span class="pun">{</span><span class="pln"> </span><span class="kwd">delete</span><span class="pln"> pr</span><span class="pun">;</span><span class="pln"> </span><span class="pun">}</span><span class="pln">
+</span><span class="pun">};</span></pre>
+      <img src="images/arrow.png" alt="">
+      <pre class="prettyprint" data-lang="cpp"><span class="kwd">struct</span><span class="pln"> owner </span><span class="pun">{</span><span class="pln">
+  std</span><span class="pun">::</span><span class="pln">unique_ptr</span><span class="str">&lt;resource&gt;</span><span class="pln"> r</span><span class="pun">;</span><span class="pln">
+
+  owner</span><span class="pun">()</span><span class="pln"> </span><span class="pun">:</span><span class="pln"> r</span><span class="pun">(</span><span class="kwd">new</span><span class="pln"> resource</span><span class="pun">)</span><span class="pln"> </span><span class="pun">{</span><span class="pln"> </span><span class="pun">}</span><span class="pln">
+</span><span class="pun">};</span></pre>
+    </article>
+  </slide>
+
+  <slide data-slide-num="11" data-total-slides="13">
+    <article class="flexbox vcenter">
+      <pre class="prettyprint" data-lang="cpp"><span class="kwd">struct</span><span class="pln"> owner </span><span class="pun">{</span><span class="pln">
+  resource</span><span class="pun">*</span><span class="pln"> pr</span><span class="pun">;</span><span class="pln">
+  owner</span><span class="pun">()</span><span class="pln"> </span><span class="pun">:</span><span class="pln"> pr</span><span class="pun">(</span><span class="kwd">new</span><span class="pln"> resource</span><span class="pun">)</span><span class="pln"> </span><span class="pun">{</span><span class="pln"> </span><span class="pun">}</span><span class="pln">
+  </span><span class="pun">~</span><span class="pln">owner</span><span class="pun">()</span><span class="pln"> </span><span class="pun">{</span><span class="pln"> </span><span class="kwd">delete</span><span class="pln"> pr</span><span class="pun">;</span><span class="pln"> </span><span class="pun">}</span><span class="pln">
+</span><span class="pun">};</span></pre>
+      <img src="images/arrow.png" alt="">
+      <pre class="prettyprint" data-lang="cpp"><span class="kwd">struct</span><span class="pln"> owner </span><span class="pun">{</span><span class="pln">
+  std</span><span class="pun">::</span><span class="pln">shared_ptr</span><span class="str">&lt;resource&gt;</span><span class="pln"> r</span><span class="pun">;</span><span class="pln">
+
+  owner</span><span class="pun">()</span><span class="pln"> </span><span class="pun">:</span><span class="pln"> r</span><span class="pun">(</span><span class="pln">make_shared</span><resource><span class="pun">())</span><span class="pln"> </span><span class="pun">{}</span><span class="pln">
+</span><span class="pun">};</span></resource></pre>
+    </article>
+  </slide>
+
+  <slide data-slide-num="12" data-total-slides="13">
+    <article class="flexbox vcenter">
+      <p>Pointers</p>
+      <p>must. <big>not.</big> own.</p>
+      <p>resources.</p>
+    </article>
+  </slide>
+
+  <slide data-slide-num="13" data-total-slides="13">
+    <article class="flexbox vcenter flourish">
+      <p>That’s it.</p>
+      <div> </div>
+    </article>
+  </slide>
+
+<div class="slide-area" id="prev-slide-area"></div><div class="slide-area" id="next-slide-area"></div></slides>
+    <!--[if IE]>
+    <script src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+    <![endif]-->
+</body></html>
