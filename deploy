@@ -13,10 +13,8 @@ cleanup() {
 
 trap cleanup EXIT
 
-git checkout "$main_branch"
 git branch -D "$remote_target"
 git checkout -b "$remote_target"
-$build_cmd
 
 git add -f "$destination"
 git com -m "New version $(date)"
