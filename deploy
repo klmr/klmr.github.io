@@ -16,12 +16,12 @@ trap cleanup EXIT
 
 remote="$(git remote | head -n 1)"
 working_branch="$(get-working-branch)"
-git branch -D "$remote_target"
+git branch --delete --force "$remote_target"
 git checkout -b "$remote_target"
 
-git add -f "$destination"
-git com -m "New version $(date)"
-git filter-branch --subdirectory-filter "$destination/" -f
+git add --force "$destination"
+git commit --message "New version $(date)"
+git filter-branch --subdirectory-filter "$destination/" --force
 
 git push "$remote" "$remote_target" --force
 
