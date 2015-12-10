@@ -6,6 +6,11 @@ header {
   height: 200px;
   padding: 100px 0 0;
 
+  @media (max-width: @screen-xs-min) {
+    height: auto;
+    padding: 0.5em 0;
+  }
+
   & > div {
     .make-row();
 
@@ -36,6 +41,11 @@ article {
     .make-md-column-offset(2);
     margin-top: 1em;
     margin-bottom: 1em;
+
+    @media (max-width: @screen-xs-min) {
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+    }
   }
 }
 
@@ -45,11 +55,19 @@ section {
 
   p {
     text-align: justify;
+
+    @media (max-width: @screen-xs-min) {
+      text-align: left !important;
+    }
   }
 
   h1 {
     font-size: 2em;
     margin-top: 1em;
+
+    @media (max-width: @screen-xs-min) {
+      margin-top: 0.6em;
+    }
 
     &:before {
       content: '¶';
