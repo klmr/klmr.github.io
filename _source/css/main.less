@@ -7,12 +7,12 @@ header {
   padding: 100px 0 0;
 
   & > div {
-    #grid.fluid.row-fluid();
+    .make-row();
 
     h1 {
       margin: 0;
-      #grid.fluid.span(8);
-      #grid.fluid.offset(2);
+      .make-md-column(8);
+      .make-md-column-offset(2);
 
       .klmr {
         font-family: Futura;
@@ -28,19 +28,19 @@ header {
 }
 
 article {
-  #grid.fluid.row-fluid();
+  .make-row();
 
   & > h1 {
-    #grid.fluid.span(8);
-    #grid.fluid.offset(2);
+    .make-md-column(8);
+    .make-md-column-offset(2);
     margin-top: 1em;
     margin-bottom: 1em;
   }
 }
 
 section {
-  #grid.fluid.span(8);
-  #grid.fluid.offset(2);
+  .make-md-column(8);
+  .make-md-column-offset(2);
 
   p {
     text-align: justify;
