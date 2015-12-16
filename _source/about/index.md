@@ -4,9 +4,10 @@ layout: default
 ---
 
 <section>
-I’m a postdoctoral researcher at the [University of Cambridge][] &
-<abbr>[EMBL][]</abbr>-<abbr>[EBI][]</abbr>. I analyse genomic data to answer
-biological questions. Here are some of the things I’ve been up to:
+I’m a postdoctoral researcher in John Marioni’s group at the [University of
+Cambridge][] & at the [European Bioinformatics Institute][EBI] (part of
+<abbr>[EMBL][]</abbr>). I analyse genomic data to answer biological questions.
+Here are some of the things I’ve been up to:
 </section>
 
 <section>
