@@ -4,8 +4,9 @@ layout: default
 ---
 
 <section>
-I’m a postdoctoral researcher in John Marioni’s group at the [University of
-Cambridge][] & at the [European Bioinformatics Institute][EBI] (part of
+I’m a postdoctoral researcher in [Eric Miska’s group][eam] at the
+[Gurdon Institute][] ([University of Cambridge][]). Before that, I worked with
+John Marioni at the [European Bioinformatics Institute][EBI] (part of the
 <abbr>[EMBL][]</abbr>). I analyse genomic data to answer biological questions.
 Here are some of the things I’ve been up to:
 </section>
@@ -98,6 +99,8 @@ You can follow my activity online:
 * On [Twitter][]
 </section>
 
+[eam]: http://ericmiskalab.org/
+[Gurdon Institute]: http://www.gurdon.cam.ac.uk/
 [University of Cambridge]: http://www.cam.ac.uk/
 [EMBL]: http://embl.org
 [EBI]: http://www.ebi.ac.uk
