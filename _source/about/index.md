@@ -62,8 +62,8 @@ I have, at various times, taught on the following subjects:
 <section>
 # Selected publications
 
-* <span class="bib authors">B. M. Schmitt\*, K. L. M. Rudolph\*, P. Karagianni,
-  N. A. Fonseca, R. J. White, I. Talianidis, D. T. Odom, J. C. Marioni, & C.
+* <span class="bib authors">B M Schmitt\*, K L M Rudolph\*, P Karagianni,
+  N A Fonseca, R J White, I Talianidis, D T Odom, J C Marioni, & C
   Kutter</span>: [<span class="bib title">“High-resolution mapping of
   transcriptional dynamics across tissue development reveals a stable
   <abbr>mRNA</abbr>–<abbr>tRNA</abbr> interface”</span>][bib-1]. <span
