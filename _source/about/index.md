@@ -63,20 +63,20 @@ I have, at various times, taught on the following subjects:
 <section>
 # Selected publications
 
-* <span class="bib authors">K L M Rudolph\*, B M Schmitt\*, D Villar,
-  R J White, J C Marioni, C Kutter & D T Odom</span>: [<span class="bib
+* <span class="bib authors">KLM Rudolph\*, BM Schmitt\*, D Villar,
+  RJ White, JC Marioni, C Kutter & DT Odom</span>: [<span class="bib
   title">Codon-driven translational efficiency is stable across diverse
   mammalian cell states</span>][bib-2]. <span class="bib journal">PLoS
   Genet</span>, <span class="bib issue">12(5): e1006024</span> (<span class="bib
   date">May 2016</span>)
 
-* <span class="bib authors">B M Schmitt\*, K L M Rudolph\*, P Karagianni,
-  N A Fonseca, R J White, I Talianidis, D T Odom, J C Marioni, & C
-  Kutter</span>: [<span class="bib title">“High-resolution mapping of
-  transcriptional dynamics across tissue development reveals a stable
-  <abbr>mRNA</abbr>–<abbr>tRNA</abbr> interface”</span>][bib-1]. <span
-  class="bib journal">Genome Res</span>, <span class="bib
-  issue">24(11):1797–807</span> (<span class="bib date">Nov 2014</span>)
+* <span class="bib authors">BM Schmitt\*, KLM Rudolph\*, P Karagianni,
+  NA Fonseca, RJ White, I Talianidis, DT Odom, JC Marioni, & C Kutter</span>:
+  [<span class="bib title">“High-resolution mapping of transcriptional dynamics
+  across tissue development reveals a stable <abbr>mRNA</abbr>–<abbr>tRNA</abbr>
+  interface”</span>][bib-1]. <span class="bib journal">Genome Res</span>, <span
+  class="bib issue">24(11):1797–807</span> (<span class="bib date">Nov
+  2014</span>)
 
 <small>\* indicates joint first authors</small>
 
