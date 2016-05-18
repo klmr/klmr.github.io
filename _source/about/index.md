@@ -70,6 +70,13 @@ I have, at various times, taught on the following subjects:
   class="bib journal">Genome Res</span>, <span class="bib
   issue">24(11):1797–807</span> (<span class="bib date">Nov 2014</span>)
 
+* <span class="bib authors">K L M Rudolph\*, B M Schmitt\*, D Villar,
+  R J White, J C Marioni, C Kutter & D T Odom</span>: [<span class="bib
+  title">Codon-driven translational efficiency is stable across diverse
+  mammalian cell states</span>][bib-2]. <span class="bib journal">PLoS
+  Genet</span>, <span class="bib issue">12(5): e1006024</span> (<span class="bib
+  date">May 2016</span>)
+
 <small>\* indicates joint first authors</small>
 
 For more, see my [Google Scholar profile][].
@@ -106,6 +113,7 @@ You can follow my activity online:
 [C++ for loop]: https://github.com/klmr/cpp-ranges
 [Google Scholar profile]: https://scholar.google.com/citations?user=ALuSMe8AAAAJ&hl=en
 [bib-1]: http://dx.doi.org/10.1101/gr.176784.114
+[bib-2]: http://dx.doi.org/10.1371/journal.pgen.1006024
 [cv]: klmr-cv.pdf
 [cv-source]: https://github.com/klmr/cv
 [Twitter]: http://twitter.com/klmr
