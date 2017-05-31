@@ -10,12 +10,14 @@ get-working-branch() {
 
 cleanup() {
     git checkout "$working_branch"
+    git stash pop
 }
 
 trap cleanup EXIT
 
 remote="$(git remote | head -n 1)"
 working_branch="$(get-working-branch)"
+git stash
 git branch --delete --force "$remote_target"
 git checkout -b "$remote_target"
 
