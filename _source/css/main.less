@@ -103,3 +103,31 @@ footer {
       color: inherit;
   }
 }
+
+#blurb {
+  color: #DDD;
+  font-size: 1.5em;
+  padding-top: 2em;
+  height: 692px;
+
+  @media (min-width: @screen-xs-min) {
+    font-size: 2em;
+  }
+
+  &:before {
+    background: #EAA url(../img/London.jpg) no-repeat;
+    background-size: cover;
+    content: "";
+    height: 692px;
+    left: 0px;
+    margin-top: -2em;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+
+    @media (min-width: @screen-md-min) {
+      margin-left: percentage((-2 / @grid-columns) / (8 / @grid-columns));
+      width: percentage(@grid-columns / 8);
+    }
+  }
+}
