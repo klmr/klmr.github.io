@@ -3,12 +3,16 @@ title: About me
 layout: default
 ---
 
-<section>
+<section id="blurb">
+Hi. My name is Konrad.
+
 I’m a postdoctoral researcher in [Eric Miska’s group][eam] at the
 [Gurdon Institute][] ([University of Cambridge][]). Before that, I worked with
 John Marioni at the [European Bioinformatics Institute][EBI]
 (<abbr>[EMBL][]</abbr>-<abbr>EBI</abbr>). I analyse genomic data to answer
-biological questions. Here are some of the things I’ve been up to:
+biological questions.
+
+Here are some of the things I’ve been up to:
 </section>
 
 <section>
