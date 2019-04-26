@@ -87,11 +87,11 @@ GEM
       gemoji (~> 2.0)
       html-pipeline (~> 2.2)
       jekyll (>= 3.0)
-    json (1.8.3)
+    json (1.8.6)
     kramdown (1.10.0)
     less (2.6.0)
       commonjs (~> 0.2.7)
-    libv8 (3.16.14.15)
+    libv8 (3.16.14.19)
     liquid (3.0.6)
     listen (3.0.6)
       rb-fsevent (>= 0.9.3)
@@ -117,8 +117,8 @@ GEM
       addressable (>= 2.3.5, < 2.5)
       faraday (~> 0.8, < 0.10)
     terminal-table (1.5.2)
-    therubyracer (0.12.2)
-      libv8 (~> 3.16.14.0)
+    therubyracer (0.12.3)
+      libv8 (~> 3.16.14.15)
       ref
     thread_safe (0.3.5)
     typhoeus (0.8.0)
@@ -137,4 +137,4 @@ DEPENDENCIES
   therubyracer
 
 BUNDLED WITH
-   1.12.4
+   2.0.1
