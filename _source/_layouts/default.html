@@ -1,33 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8"/>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <title>{{ page.title }} — klmr.me</title>
-        <link rel="stylesheet" href="/css/main.css"/>
-        <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
-    </head>
-    <body>
-        <header class="container-fluid">
-            <div>
-                <h1><span class="klmr">klmr</span><span class="klmr-me">.me</span></h1>
-            </div>
-        </header>
+{% include header.html header="default" %}
 
-        <div class="container-fluid">
-            <article>
-                <h1>{{ page.title }}</h1>
-                {{content}}
-            </article>
+<article>
+    <div class="container">
+        <div class="row">
+            <h1 class="ten columns offset-by-one">{{ page.title }}</h1>
         </div>
+{% if page.blurb %}
+    </div>
 
-        <footer>
-            <p>&copy; Konrad Rudolph ·
-                <a href="https://creativecommons.org/licenses/by/3.0/">CC-BY</a></p>
-        </footer>
-    </body>
-</html>
+    <section id="blurb" class="{{ page.path | remove: '/index.md' }}">
+        <div class="container">
+            <div class="row">
+                <div class="ten columns offset-by-one">
+                    {{ page.blurb | markdownify }}
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+{% endif %}
+        <div class="row">
+            <div class="ten columns offset-by-one">
+                {{ content }}
+            </div>
+        </div>
+    </div>
+</article>
+
+{% include footer.html %}

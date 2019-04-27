@@ -1,0 +1,134 @@
+/* reset */
+abbr[title], acronym[title] {
+    text-decoration: inherit;
+}
+
+body {
+    background: #fcfcfc;
+    color: #586e75;
+    font-size: 1.6rem;
+    font-family: Palatino, "Palatino Linotype", "Times New Roman", Times, serif;
+}
+
+header {
+    background: #073642 url(../img/blue-sand.png) repeat;
+    color: #eeeeee;
+}
+
+@media (min-width: 550px) {
+    header.default,
+    header.default * {
+        height: 200px;
+        line-height: 200px;
+    }
+
+    header.main,
+    header.main * {
+        height: 400px;
+        line-height: 400px;
+    }
+
+    header h1 {
+        margin: 0;
+    }
+}
+
+header h1 .klmr {
+    font-family: Futura, "Avenir Next", Roboto, sans-serif;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+header h1 .klmr-me {
+    font-family: Palatino, "Palatino Linotype", Times New Roman, Times, serif;
+    font-style: italic;
+}
+
+article h1,
+article h2,
+article h3,
+article h4,
+article h5,
+article h6 {
+    margin: 2rem 0 0;
+}
+
+article h1 {
+    font-size: 5rem;
+    margin: 1rem 0;
+}
+
+p {
+    margin: 0;
+}
+
+article p + p {
+    text-indent: 1rem;
+}
+
+#profile {
+    border-radius:10px;
+    max-width: 100%;
+    vertical-align: center;
+}
+
+#blurb p + p {
+    margin-top: 0.5rem;
+    text-indent: 0;
+}
+
+a {
+    color: #0088cc;
+}
+
+a:hover {
+    color: inherit;
+    transition: color 0.3s ease-in-out;
+    -moz-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
+    -webkit-transition: color 0.3s ease-in-out;
+}
+
+@media (min-width: 550px) {
+    article p {
+        text-align: justify;
+    }
+}
+
+#blurb {
+    background: #073642 url(../img/pebbles.jpg);
+    color: #dddddd;
+    font-size: 2rem;
+}
+
+@media (min-width: 550px) {
+    #blurb {
+        padding: 1rem 0;
+    }
+}
+
+footer {
+    background: #0A4B5C;
+    color: #00101C;
+    margin: 1rem 0 0;
+    padding: 1rem;
+}
+
+footer p {
+    font-size: 1.4rem;
+    margin: 0;
+    text-align: center;
+    text-shadow: 1px 1px 1px #326875;
+}
+
+footer a, footer a:hover {
+    color: inherit;
+}
+
+.bib.authors {
+    color: #72888F;
+}
+
+.bib.journal {
+    font-style: italic;
+g

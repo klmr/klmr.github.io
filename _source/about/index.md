@@ -1,136 +1,105 @@
 ---
 title: About me
 layout: default
+blurb: |
+    <div class="row"><div class="eight columns">
+    Hi. My name is Konrad.
+
+    I’m a senior research scientist and software developer at [PetaGene][].
+
+    In my previous life I was a postdoctoral researcher in [Eric Miska’s group][eam]
+    at the [Gurdon Institute][]/[University of Cambridge][]. Before that, I worked
+    with John Marioni at the [European Bioinformatics Institute][EBI]
+    (<abbr>[EMBL][]</abbr>-<abbr>EBI</abbr>).
+
+    [PetaGene]: https://www.petagene.com/
+    [eam]: http://ericmiskalab.org/
+    [Gurdon Institute]: http://www.gurdon.cam.ac.uk/
+    [University of Cambridge]: http://www.cam.ac.uk/
+    [EMBL]: http://embl.org
+    [EBI]: http://www.ebi.ac.uk
+
+    </div><div class="four columns">
+    <img id="profile" src="https://www.gravatar.com/avatar/fdd630f72eef3790bfb4ef38d08c7f85?s=240"/>
+    </div></div>
+
+    Here are some of the things I do:
 ---
 
-<section id="blurb">
-Hi. My name is Konrad.
+## Research
 
-I’m a postdoctoral researcher in [Eric Miska’s group][eam] at the
-[Gurdon Institute][] ([University of Cambridge][]). Before that, I worked with
-John Marioni at the [European Bioinformatics Institute][EBI]
-(<abbr>[EMBL][]</abbr>-<abbr>EBI</abbr>). I analyse genomic data to answer
-biological questions.
-
-Here are some of the things I’ve been up to:
-</section>
-
-<section>
-# Research
-
-My current work is on the regulation of translation in mammals through changes
-in <abbr>tRNA</abbr> abundance and codon usage. I am also looking at the
-extended polymerase III transcriptome, in particular <abbr>SINE</abbr>s. My [PhD
-thesis][] was titled *“Investigating the link between <abbr>tRNA</abbr> and
+I did my main research on genomics and the regulation of translation in mammals
+through changes in <abbr>tRNA</abbr> abundance and codon usage. The title of my
+[PhD thesis][] was *“Investigating the link between <abbr>tRNA</abbr> and
 <abbr>mRNA</abbr> abundance in mammals”*.
 
-Before this, I’ve worked in algorithms and software development, in particular
+Before that, I’ve worked in algorithms and software development, in particular
 implementing high-throughput sequencing read mapping tools, and creating
 frameworks for the automatic parallelisation of high-performance code on
 multicore architecture. I have also done work in cell regulatory networks.
-</section>
 
-<section>
-# Hacking
+## Hacking
 
-I’m the developer of ‹[modules][]›, an alternative [R][] code modularisation
-system. It replaces conventional R packages and fixes [some of its
-flaws][modules-rationale]. The mechanism is borrowed from Python packages and
-JavaScript modules.
+* **[modules][]**, an alternative code modularisation system for [R][]
 
-I developed the first version of the [LaTeX][] package ‹[minted][]›, which
-provides code pretty-printing by wrapping [Pygments][].
+* **[minted][]**, a syntax highligher package for [LaTeX][] based on [Pygments][]
 
-I strive to make development with [C++][] less painful by showcasing the use of
-clean, high-level code over low-level constructs. [C++11][] has made this
-immensely easier.
-</section>
+For more, see my [GitHub profile][GitHub]. I’m also occasionally active on
+[Stack Overflow][].
 
-<section>
-# Teaching
-
-I have, at various times, taught on the following subjects:
-
-* High-throughput sequencing with focus on <abbr>RNA</abbr>-seq & ChIP-seq
-  <small>(University of Cambridge)</small>
-* Computer science 101/102 <small>(Freie Universität Berlin)</small>
-* Algorithms in bioinformatics <small>(Freie Universität Berlin)</small>
-* Database systems <small>(Freie Universität Berlin)</small>
-* C++ <small>(Freie Universität Berlin)</small>
-* VB <small>(ActiveVB workshop)</small>
-* Unix/Bash <small>(<abbr>EMBL</abbr> workshop)</small>
-* LaTeX <small>(<abbr>EMBL</abbr> workshop)</small>
-* R <small>(<abbr>EMBL</abbr> workshop)</small>
-* Git <small>(<abbr>EMBL</abbr> workshop)</small>
-</section>
-
-<section>
-# Selected publications
+## Selected publications
 
 * <span class="bib authors">E Maori, I Cunha Navarro, H Boncristiani, DJ Seilly,
-  KLM Rudolph, A Sapetschnig, C Lin, JE Ladbury, JD Evans, JL Heeney & EA
+  **KLM Rudolph**, A Sapetschnig, C Lin, JE Ladbury, JD Evans, JL Heeney *&* EA
   Miska</span>: [<span class="bib title">A secreted RNA binding protein forms
   RNA-stabilizing granules in the honeybee royal jelly</span>][bib-3]. <span
   class="bib journal">Mol Cell</span>, <span class="bib issue">74, 1–11</span>
   (<span class="bib date">May 2019</span>)
 
-* <span class="bib authors">KLM Rudolph\*, BM Schmitt\*, D Villar,
-  RJ White, JC Marioni, C Kutter & DT Odom</span>: [<span class="bib
+* <span class="bib authors">**KLM Rudolph**\*, BM Schmitt\*, D Villar,
+  RJ White, JC Marioni, C Kutter *&* DT Odom</span>: [<span class="bib
   title">“Codon-driven translational efficiency is stable across diverse
   mammalian cell states”</span>][bib-2]. <span class="bib journal">PLoS
   Genet</span>, <span class="bib issue">12(5): e1006024</span> (<span class="bib
   date">May 2016</span>)
 
-* <span class="bib authors">BM Schmitt\*, KLM Rudolph\*, P Karagianni,
-  NA Fonseca, RJ White, I Talianidis, DT Odom, JC Marioni, & C Kutter</span>:
+* <span class="bib authors">BM Schmitt\*, **KLM Rudolph**\*, P Karagianni,
+  NA Fonseca, RJ White, I Talianidis, DT Odom, JC Marioni, *&* C Kutter</span>:
   [<span class="bib title">“High-resolution mapping of transcriptional dynamics
   across tissue development reveals a stable <abbr>mRNA</abbr>–<abbr>tRNA</abbr>
   interface”</span>][bib-1]. <span class="bib journal">Genome Res</span>, <span
   class="bib issue">24(11):1797–807</span> (<span class="bib date">Nov
   2014</span>)
 
-<small>\* indicates joint first authors</small>
+For more, see my [Google Scholar profile][]. <small>\* indicates joint first
+authors</small>
 
-For more, see my [Google Scholar profile][].
-</section>
+## Teaching
 
-<section>
-# CV
+I have, at various times, taught on the following subjects:
+
+* High-throughput sequence analysis
+* <abbr title="computer science">CS</abbr> 101 *&* <abbr title="computer science">CS</abbr> 102
+* Algorithms in bioinformatics
+* Database systems *&* <abbr>SQL</abbr>
+* C++ · <abbr>VB</abbr> · Unix/Bash · LaTeX · R · Git
+* Compression
+
+## CV
 
 [You can download my <abbr>CV</abbr>][cv], or view the [source code][cv-source].
-</section>
 
-<section>
-# Online
-
-You can follow my activity online:
-
-* On [Github][]
-* On [Stack Overflow][]
-* On [Twitter][]
-</section>
-
-[eam]: http://ericmiskalab.org/
-[Gurdon Institute]: http://www.gurdon.cam.ac.uk/
-[University of Cambridge]: http://www.cam.ac.uk/
-[EMBL]: http://embl.org
-[EBI]: http://www.ebi.ac.uk
 [PhD thesis]: https://github.com/klmr/thesis
 [R]: http://r-project.org
 [modules]: https://github.com/klmr/modules
-[modules-rationale]: https://github.com/klmr/modules/wiki/Design-rationale
 [LaTeX]: https://www.latex-project.org/
 [minted]: http://ctan.org/pkg/minted
 [Pygments]: http://pygments.org/
-[C++]: https://isocpp.org/
-[C++11]: https://en.wikipedia.org/wiki/C%2B%2B11
-[C++ for loop]: https://github.com/klmr/cpp-ranges
 [Google Scholar profile]: https://scholar.google.com/citations?user=ALuSMe8AAAAJ&hl=en
 [bib-1]: https://doi.org/10.1101/gr.176784.114
 [bib-2]: https://doi.org/10.1371/journal.pgen.1006024
 [bib-3]: https://doi.org/10.1016/j.molcel.2019.03.010
 [cv]: klmr-cv.pdf
 [cv-source]: https://github.com/klmr/cv
-[Twitter]: http://twitter.com/klmr
 [Stack Overflow]: stackoverflow.com/users/1968/konrad-rudolph
-[Github]: https://github.com/klmr
+[GitHub]: https://github.com/klmr
