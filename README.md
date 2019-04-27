@@ -11,14 +11,3 @@ Deployment happens via
 ```bash
 make deploy
 ```
-
-Dependencies
-============
-
-* [Bootstrap][]
-* [node.js][]
-* [jekyll-less][], with patch git://github.com/populr/less.rb.git:v2.2.2-less1.3.3
-
-[Bootstrap]: http://twitter.github.com/bootstrap/
-[node.js]: http://nodejs.org/
-[jekyll-less]: https://github.com/zroger/jekyll-less
