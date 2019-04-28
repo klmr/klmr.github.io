@@ -68,8 +68,9 @@ article p + p {
 
 #profile {
     border-radius:10px;
+    display: block;
+    margin: 0 auto;
     max-width: 100%;
-    vertical-align: center;
 }
 
 #blurb p + p {
