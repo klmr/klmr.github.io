@@ -4,15 +4,15 @@ abbr[title], acronym[title] {
 }
 
 body {
-    background: #fcfcfc;
-    color: #586e75;
+    background: #FCFCFC;
+    color: #586E75;
     font-size: 1.6rem;
     font-family: Palatino, "Palatino Linotype", "Times New Roman", Times, serif;
 }
 
 header {
     background: #073642 url(../img/blue-sand.png) repeat;
-    color: #eeeeee;
+    color: #EEEEEE;
 }
 
 header h1 {
@@ -79,7 +79,7 @@ article p + p {
 }
 
 a {
-    color: #0088cc;
+    color: #0088CC;
 }
 
 a:hover {
@@ -102,7 +102,7 @@ a:hover {
 
 #blurb {
     background: #073642 url(../img/pebbles.jpg);
-    color: #dddddd;
+    color: #DDDDDD;
     font-size: 2rem;
 }
 
