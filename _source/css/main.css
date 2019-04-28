@@ -15,6 +15,10 @@ header {
     color: #eeeeee;
 }
 
+header h1 {
+    margin: 0;
+}
+
 @media (min-width: 550px) {
     header.default,
     header.default * {
@@ -26,10 +30,6 @@ header {
     header.main * {
         height: 400px;
         line-height: 400px;
-    }
-
-    header h1 {
-        margin: 0;
     }
 }
 
