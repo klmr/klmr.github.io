@@ -5,7 +5,7 @@ blurb: |
     <div class="row"><div class="eight columns">
     Hi. My name is Konrad.
 
-    I’m a senior research scientist and software developer at [PetaGene][].
+    I’m a senior research engineer and software developer at [PetaGene][].
 
     In my previous life I was a postdoctoral researcher in [Eric Miska’s group][eam]
     at the [Gurdon Institute][]/[University of Cambridge][]. Before that, I worked
