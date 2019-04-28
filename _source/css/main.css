@@ -113,8 +113,8 @@ a:hover {
 }
 
 footer {
-    background: #0C5669;
-    color: #00101C;
+    background: #667275;
+    color: #3D3D3D;
     margin: 1rem 0 0;
     padding: 1rem;
 }
@@ -129,7 +129,7 @@ footer p {
     font-size: 1.4rem;
     margin: 0;
     text-align: center;
-    text-shadow: 1px 1px 1px #326875;
+    text-shadow: 1px 1px 1px #6B868F;
 }
 
 footer a, footer a:hover {
