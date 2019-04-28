@@ -94,6 +94,10 @@ a:hover {
     article p {
         text-align: justify;
     }
+
+    #blurb p {
+        text-align: inherit;
+    }
 }
 
 #blurb {
