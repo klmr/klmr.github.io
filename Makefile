@@ -1,6 +1,6 @@
 .PHONY: run
 run: install
-	bundler exec jekyll serve
+	bundler exec jekyll serve --host 0.0.0.0
 
 .PHONY: build
 build: install
