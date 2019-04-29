@@ -17,7 +17,7 @@ trap cleanup EXIT
 
 remote="$(git remote | head -n 1)"
 working_branch="$(get-working-branch)"
-git stash push --all
+git stash push --include-untracked
 git branch --delete --force "$remote_target"
 git checkout -b "$remote_target"
 
