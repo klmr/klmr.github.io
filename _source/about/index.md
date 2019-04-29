@@ -101,5 +101,5 @@ I have, at various times, taught on the following subjects:
 [bib-3]: https://doi.org/10.1016/j.molcel.2019.03.010
 [cv]: klmr-cv.pdf
 [cv-source]: https://github.com/klmr/cv
-[Stack Overflow]: stackoverflow.com/users/1968/konrad-rudolph
+[Stack Overflow]: https://stackoverflow.com/users/1968/konrad-rudolph
 [GitHub]: https://github.com/klmr
