@@ -1,4 +1,4 @@
-source: _source
+source: source
 highlighter: pygments
 markdown: kramdown
 
