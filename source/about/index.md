@@ -28,10 +28,10 @@ blurb: |
 
 ## Research
 
-I did my main research on genomics and the regulation of translation in mammals
-through changes in <abbr>tRNA</abbr> abundance and codon usage. The title of my
-[PhD thesis][] was *“Investigating the link between <abbr>tRNA</abbr> and
-<abbr>mRNA</abbr> abundance in mammals”*.
+I did most of my research on genomics and the regulation of translation in
+mammals through changes in <abbr>tRNA</abbr> abundance and codon usage. The
+title of my [PhD thesis][] was *“Investigating the link between
+<abbr>tRNA</abbr> and <abbr>mRNA</abbr> abundance in mammals”*.
 
 Before that, I’ve worked in algorithms and software development, in particular
 implementing high-throughput sequencing read mapping tools, and creating
