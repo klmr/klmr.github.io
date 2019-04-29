@@ -85,9 +85,10 @@ I have, at various times, taught on the following subjects:
 * C++ · <abbr>VB</abbr> · Unix/Bash · LaTeX · R · Git
 * Compression
 
-## CV
+## <abbr>CV</abbr>
 
-[You can download my <abbr>CV</abbr>][cv], or view the [source code][cv-source].
+I maintain a more or less up-to-date <abbr>CV</abbr> as a [Developer Story on
+Stack Overflow][cv].
 
 [PhD thesis]: https://github.com/klmr/thesis
 [R]: http://r-project.org
@@ -99,7 +100,7 @@ I have, at various times, taught on the following subjects:
 [bib-1]: https://doi.org/10.1101/gr.176784.114
 [bib-2]: https://doi.org/10.1371/journal.pgen.1006024
 [bib-3]: https://doi.org/10.1016/j.molcel.2019.03.010
-[cv]: klmr-cv.pdf
+[cv]: https://stackoverflow.com/story/klmr
 [cv-source]: https://github.com/klmr/cv
 [Stack Overflow]: https://stackoverflow.com/users/1968/konrad-rudolph
 [GitHub]: https://github.com/klmr
