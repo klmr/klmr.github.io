@@ -1,6 +1,7 @@
 ---
 title: About me
 layout: default
+image: https://www.gravatar.com/avatar/fdd630f72eef3790bfb4ef38d08c7f85?s=600
 blurb: |
     <div class="row"><div class="eight columns">
     Hi. My name is Konrad.
@@ -24,6 +25,11 @@ blurb: |
     </div></div>
 
     Here are some of the things I do:
+meta: |
+    <meta property="og:type" content="profile"/>
+    <meta property="profile:first_name" content="Konrad"/>
+    <meta property="profile:last_name" content="Rudolph"/>
+    <meta property="profile:username" content="klmr"/>
 ---
 
 ## Research
