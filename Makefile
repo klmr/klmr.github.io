@@ -11,7 +11,7 @@ install: Gemfile.lock
 
 .PHONY: deploy
 deploy: build
-	./deploy
+	scripts/deploy
 
 Gemfile.lock: Gemfile
 	bundler install
