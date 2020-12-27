@@ -79,7 +79,7 @@ article p + p {
 }
 
 a {
-    color: #0088CC;
+    color: #8a90a7;
 }
 
 a:hover {
@@ -101,9 +101,25 @@ a:hover {
 }
 
 #blurb {
-    background: #073642 url(../img/pebbles.jpg);
+    box-shadow:
+        inset 0px 1rem 0.5rem -0.5rem #00000080,
+        inset 0 -1rem 0.5rem -0.5rem #00000080;
     color: #DDDDDD;
     font-size: 2rem;
+    overflow: hidden;
+    position: relative;
+}
+
+#blurb::before {
+    background: #073642 url(../img/arrows.png) 0 0 repeat;
+    content: "";
+    height: 400%;
+    left: -50%;
+    position: absolute;
+    top: -100%;
+    transform: rotate(20deg);
+    width: 200%;
+    z-index: -1;
 }
 
 @media (min-width: 550px) {
