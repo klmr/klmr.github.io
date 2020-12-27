@@ -8,10 +8,10 @@ blurb: |
 
     I’m a senior research engineer and software developer at [PetaGene][].
 
-    In my previous life I was a postdoctoral researcher in [Eric Miska’s group][eam]
-    at the [Gurdon Institute][]/[University of Cambridge][]. Before that, I worked
-    with John Marioni at the [European Bioinformatics Institute][EBI]
-    (<abbr>[EMBL][]</abbr>-<abbr>EBI</abbr>).
+    In my previous life I was a postdoctoral researcher in [Eric Miska’s
+    group][eam] at the [University of Cambridge][] ([Gurdon Institute][]). My
+    PhD was supervised by John Marioni at the [European Bioinformatics
+    Institute][EBI] (<abbr>[EMBL][]</abbr>-<abbr>EBI</abbr>).
 
     [PetaGene]: https://www.petagene.com/
     [eam]: http://ericmiskalab.org/
@@ -34,7 +34,7 @@ meta: |
 
 ## Research
 
-I did most of my research on genomics and the regulation of translation in
+I do most of my research on genomics and the regulation of translation in
 mammals through changes in <abbr>tRNA</abbr> abundance and codon usage. The
 title of my [PhD thesis][] was *“Investigating the link between
 <abbr>tRNA</abbr> and <abbr>mRNA</abbr> abundance in mammals”*.
@@ -45,6 +45,8 @@ frameworks for the automatic parallelisation of high-performance code on
 multicore architecture. I have also done work in cell regulatory networks.
 
 ## Hacking
+
+Some of my favourite projects are:
 
 * **[modules][]**, an alternative code modularisation system for [R][]
 
