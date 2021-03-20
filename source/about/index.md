@@ -4,7 +4,7 @@ layout: default
 image: https://www.gravatar.com/avatar/fdd630f72eef3790bfb4ef38d08c7f85?s=600
 blurb: |
     <div class="row"><div class="eight columns">
-    Hi. My name is Konrad.
+    Hi. 👋 My name is Konrad.
 
     I’m a senior research engineer and software developer at [PetaGene][].
 
@@ -44,16 +44,33 @@ implementing high-throughput sequencing read mapping tools, and creating
 frameworks for the automatic parallelisation of high-performance code on
 multicore architecture. I have also done work in cell regulatory networks.
 
-## Hacking
+## Open Source projects
 
-Some of my favourite projects are:
+Some of my most widely used projects are
 
-* **[modules][]**, an alternative code modularisation system for [R][]
+* **[box][]**: A package for the [R programming language][R] that enables
+    writing reusable, composable and modular R code
 
 * **[minted][]**, a syntax highligher package for [LaTeX][] based on [Pygments][]
 
-For more, see my [GitHub profile][GitHub]. I’m also occasionally active on
-[Stack Overflow][].
+To see more of my contributions to Open Source projects, visit my  [GitHub
+profile][GitHub].
+
+## Teaching
+
+I have, at various times, taught on the following subjects:
+
+* High-throughput sequence analysis
+* <abbr title="computer science">CS</abbr> 101 *&* <abbr title="computer science">CS</abbr> 102
+* Algorithms in bioinformatics
+* Database systems *&* <abbr>SQL</abbr>
+* C++ · <abbr>VB</abbr> · Unix/Bash · LaTeX · R · Git
+* Basics of data compression
+
+I’m also occasionally active on [Stack Overflow][], where I’m one of the 0.01%
+most active contributors of all time, although in recent years I have massively
+reduced my activity (for a brief moment in 2009 I was #1, but that turns out to
+have been a miscalculation due to a bug in the Stack Overflow software).
 
 ## Selected publications
 
@@ -82,25 +99,14 @@ For more, see my [GitHub profile][GitHub]. I’m also occasionally active on
 For more, see my [Google Scholar profile][]. <small>\* indicates joint first
 authors</small>
 
-## Teaching
-
-I have, at various times, taught on the following subjects:
-
-* High-throughput sequence analysis
-* <abbr title="computer science">CS</abbr> 101 *&* <abbr title="computer science">CS</abbr> 102
-* Algorithms in bioinformatics
-* Database systems *&* <abbr>SQL</abbr>
-* C++ · <abbr>VB</abbr> · Unix/Bash · LaTeX · R · Git
-* Compression
-
 ## <abbr>CV</abbr>
 
-I maintain a more or less up-to-date <abbr>CV</abbr> as a [Developer Story on
+You can find my more or less up-to-date <abbr>CV</abbr> as a [Developer Story on
 Stack Overflow][cv].
 
 [PhD thesis]: https://github.com/klmr/thesis
 [R]: http://r-project.org
-[modules]: https://github.com/klmr/modules
+[box]: https://github.com/klmr/box
 [LaTeX]: https://www.latex-project.org/
 [minted]: http://ctan.org/pkg/minted
 [Pygments]: http://pygments.org/
