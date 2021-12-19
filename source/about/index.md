@@ -50,9 +50,11 @@ done work in cell regulatory networks.
 Some of my most widely used projects are
 
 * **[box][]**: A package for the [R programming language][R] that enables
-    writing reusable, composable and modular R code
+    writing reusable, composable and modular R code<span class="gh-stars"
+    data-repo="klmr/box"></span>
 
-* **[minted][]**, a syntax highligher package for [LaTeX][] based on [Pygments][]
+* **[minted][]**, a syntax highligher package for [LaTeX][] based on
+    [Pygments][]<span class="gh-stars" data-repo="gpoore/minted"></span>
 
 To see more of my contributions to Open Source projects, visit my  [GitHub
 profile][GitHub].
@@ -119,3 +121,15 @@ Stack Overflow][cv].
 [cv-source]: https://github.com/klmr/cv
 [Stack Overflow]: https://stackoverflow.com/users/1968/konrad-rudolph
 [GitHub]: https://github.com/klmr
+
+<script>
+;(() => {
+    const starred = document.getElementsByClassName('gh-stars')
+    for (const star of starred) {
+        const url = `https://api.github.com/repos/${star.dataset.repo}`
+        fetch(url)
+            .then(res => res.json())
+            .then(out => {star.innerHTML = ` (<span title="GitHub stargazers">⭐︎${out.stargazers_count}</span>)`})
+    }
+})()
+</script>
