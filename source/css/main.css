@@ -90,16 +90,6 @@ a:hover {
     -webkit-transition: color 0.3s ease-in-out;
 }
 
-@media (min-width: 550px) {
-    article p {
-        text-align: justify;
-    }
-
-    #blurb p {
-        text-align: inherit;
-    }
-}
-
 #blurb {
     box-shadow:
         inset 0px 1rem 0.5rem -0.5rem #00000080,
