@@ -63,7 +63,7 @@ p {
 }
 
 article p + p {
-    text-indent: 1rem;
+    text-indent: 2rem;
 }
 
 #profile {
