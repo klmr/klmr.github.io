@@ -6,12 +6,14 @@ blurb: |
     <div class="row"><div class="eight columns">
     Hi. 👋 My name is Konrad.
 
-    I’m a senior research engineer and software developer at [PetaGene][].
+    I’m a senior research engineer at [PetaGene][].
 
     In my previous life I was a postdoctoral researcher in [Eric Miska’s
     group][eam] at the [University of Cambridge][] ([Gurdon Institute][]). My
     PhD was supervised by John Marioni at the [European Bioinformatics
     Institute][EBI] (<abbr>[EMBL][]</abbr>-<abbr>EBI</abbr>).
+
+    Here are some of the things I do:
 
     [PetaGene]: https://www.petagene.com/
     [eam]: http://ericmiskalab.org/
@@ -23,8 +25,6 @@ blurb: |
     </div><div class="four columns">
     <img id="profile" src="https://www.gravatar.com/avatar/fdd630f72eef3790bfb4ef38d08c7f85?s=240"/>
     </div></div>
-
-    Here are some of the things I do:
 meta: |
     <meta property="og:type" content="profile"/>
     <meta property="profile:first_name" content="Konrad"/>
@@ -44,7 +44,7 @@ implementing high-throughput sequencing read mapping tools, and creating
 frameworks for the automatic parallelisation of high-performance code on
 multicore architecture. I have also done work in cell regulatory networks.
 
-## Open Source projects
+## Open Source
 
 Some of my most widely used projects are
 
