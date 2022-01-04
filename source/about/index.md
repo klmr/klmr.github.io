@@ -129,7 +129,13 @@ Stack Overflow][cv].
         const url = `https://api.github.com/repos/${star.dataset.repo}`
         fetch(url)
             .then(res => res.json())
-            .then(out => {star.innerHTML = ` (<span title="GitHub stargazers">⭐︎${out.stargazers_count}</span>)`})
+            .then(out => {
+                const count = out.stargazers_count
+                star.innerHTML = `<span title="${count} GitHub stargazers">⭐︎${count}</span>`
+            })
     }
 })()
 </script>
+<style>
+.gh-stars { font-size: 0.8em; vertical-align: top; }
+</style>
