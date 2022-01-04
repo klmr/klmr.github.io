@@ -77,9 +77,7 @@ I have, at various times, taught on the following subjects:
 * Basics of data compression
 
 I’m also occasionally active on [Stack Overflow][], where I’m one of the 0.01%
-most active contributors of all time, although in recent years I have massively
-reduced my activity (for a brief moment in 2009 I was #1, but that turns out to
-have been a miscalculation due to a bug in the Stack Overflow software).
+most active contributors of all time.
 
 ## Selected publications
 
