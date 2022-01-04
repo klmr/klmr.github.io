@@ -47,11 +47,17 @@ done work in cell regulatory networks.
 
 ## Open Source
 
-Some of my most widely used projects are
+I contribute prolifically to various Open Source projects. Some of my own most
+widely used projects are:
 
 * **[box][]**: A package for the [R programming language][R] that enables
     writing reusable, composable and modular R code<span class="gh-stars"
     data-repo="klmr/box"></span>
+
+* **[named-operator][]**: A small C++ helper that adds named operators to the
+    language through operator overloading and templates, without macros;
+    inspired a function in a [Boost library][boost.hof]<span class="gh-stars"
+    data-repo="klmr/named-operator"></span>
 
 * **[minted][]**, a syntax highligher package for [LaTeX][] based on
     [Pygments][]<span class="gh-stars" data-repo="gpoore/minted"></span>
@@ -110,6 +116,8 @@ Stack Overflow][cv].
 [PhD thesis]: https://github.com/klmr/thesis
 [R]: http://r-project.org
 [box]: https://github.com/klmr/box
+[named-operator]: https://github.com/klmr/named-operator
+[boost.hof]: https://www.boost.org/doc/libs/1_78_0/libs/hof/doc/html/include/boost/hof/infix.html
 [LaTeX]: https://www.latex-project.org/
 [minted]: http://ctan.org/pkg/minted
 [Pygments]: http://pygments.org/
