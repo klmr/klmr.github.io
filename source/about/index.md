@@ -59,7 +59,8 @@ widely used projects are:
     inspired a function in a [Boost library][boost.hof]<span class="gh-stars"
     data-repo="klmr/named-operator"></span>
 
-* **[minted][]**, a syntax highligher package for [LaTeX][] based on
+* **[minted][]**, a syntax highligher package for
+    <a href="https://www.latex-project.org/" style="text-decoration: none"><span style="letter-spacing: -0.3em">L</span><span style="font-size: 0.7em; letter-spacing: -0.1em; vertical-align: 0.3em">A</span><span style="letter-spacing: -0.1em">T</span><span style="letter-spacing: -0.1em; vertical-align: -0.2em;">E</span>X</a> based on
     [Pygments][]<span class="gh-stars" data-repo="gpoore/minted"></span>
 
 To see more of my contributions to Open Source projects, visit my  [GitHub
@@ -73,7 +74,7 @@ I have, at various times, taught on the following subjects:
 * <abbr title="computer science">CS</abbr> 101 *&* <abbr title="computer science">CS</abbr> 102
 * Algorithms in bioinformatics
 * Database systems *&* <abbr>SQL</abbr>
-* C++ · <abbr>VB</abbr> · Unix/Bash · LaTeX · R · Git
+* C++ · <abbr>VB</abbr> · Unix/Bash · <span style="letter-spacing: -0.3em">L</span><span style="font-size: 0.7em; letter-spacing: -0.1em; vertical-align: 0.3em">A</span><span style="letter-spacing: -0.1em">T</span><span style="letter-spacing: -0.1em; vertical-align: -0.2em;">E</span>X · R · Git
 * Basics of data compression
 
 I’m also occasionally active on [Stack Overflow][], where I’m one of the 0.01%
