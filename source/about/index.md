@@ -60,7 +60,8 @@ widely used projects are:
     data-repo="klmr/named-operator"></span>
 
 * **[minted][]**, a syntax highligher package for
-    <a href="https://www.latex-project.org/" style="text-decoration: none"><span style="letter-spacing: -0.3em">L</span><span style="font-size: 0.7em; letter-spacing: -0.1em; vertical-align: 0.3em">A</span><span style="letter-spacing: -0.1em">T</span><span style="letter-spacing: -0.1em; vertical-align: -0.2em;">E</span>X</a> based on
+    [<span style="letter-spacing: -0.3em">L</span><span style="font-size: 0.7em; letter-spacing: -0.1em; vertical-align: 0.3em">A</span><span style="letter-spacing: -0.1em">T</span><span style="letter-spacing: -0.1em; vertical-align: -0.2em;">E</span>X][LaTeX]
+    based on
     [Pygments][]<span class="gh-stars" data-repo="gpoore/minted"></span>
 
 To see more of my contributions to Open Source projects, visit my  [GitHub

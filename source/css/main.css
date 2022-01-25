@@ -79,15 +79,18 @@ article p + p {
 }
 
 a {
+    border-bottom: 1px solid #8a90a7;
     color: #8a90a7;
+    text-decoration: none;
 }
 
 a:hover {
     color: inherit;
-    transition: color 0.3s ease-in-out;
-    -moz-transition: color 0.3s ease-in-out;
-    -o-transition: color 0.3s ease-in-out;
-    -webkit-transition: color 0.3s ease-in-out;
+    border-bottom-color: transparent;
+    transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
 }
 
 #blurb {
@@ -110,6 +113,10 @@ a:hover {
     transform: rotate(20deg);
     width: 200%;
     z-index: -1;
+}
+
+#blurb a {
+    color: inherit;
 }
 
 @media (min-width: 550px) {
@@ -153,6 +160,7 @@ footer ul li:not(:last-child)::after {
 }
 
 footer a, footer a:hover {
+    border: none;
     color: inherit;
 }
 
