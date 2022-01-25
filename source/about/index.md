@@ -1,7 +1,7 @@
 ---
 title: About me
 layout: default
-image: https://www.gravatar.com/avatar/fdd630f72eef3790bfb4ef38d08c7f85?s=600
+image: /img/profile.jpg
 blurb: |
     <div class="row"><div class="eight columns">
     Hi. 👋 My name is Konrad.
@@ -23,7 +23,7 @@ blurb: |
     [EBI]: http://www.ebi.ac.uk
 
     </div><div class="four columns">
-    <img id="profile" src="https://www.gravatar.com/avatar/fdd630f72eef3790bfb4ef38d08c7f85?s=240"/>
+    <img id="profile" src="/img/profile-med-alpha.png"/>
     </div></div>
 meta: |
     <meta property="og:type" content="profile"/>
