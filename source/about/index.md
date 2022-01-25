@@ -134,14 +134,18 @@ Stack Overflow][cv].
     for (const star of starred) {
         const url = `https://api.github.com/repos/${star.dataset.repo}`
         fetch(url)
-            .then(res => res.json())
+            .then(res => {
+                if (res.ok) return res.json()
+                return Promise.reject(new Error(`Status code ${res.status}`))
+            })
             .then(out => {
-                const count = out.stargazers_count
-                star.innerHTML = `<span title="${count} GitHub stargazers">⭐︎${count}</span>`
+                const count = Number(out.stargazers_count)
+                star.innerHTML = `<span title="${count} GitHub stargazers">${count}</span>`
             })
     }
 })()
 </script>
 <style>
-.gh-stars { font-size: 0.8em; vertical-align: top; }
+.gh-stars { font-size: 0.8em; padding-left: 2px; vertical-align: top; }
+.gh-stars::before { content: '☆'; }
 </style>
