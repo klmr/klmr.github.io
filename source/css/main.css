@@ -135,6 +135,7 @@ footer ul {
     font-size: 1.4rem;
     margin: 0;
     list-style: none;
+    padding: 0;
     text-align: center;
     text-shadow: 1px 1px 1px #6B868F;
 }
