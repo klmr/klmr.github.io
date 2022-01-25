@@ -8,10 +8,10 @@ blurb: |
 
     I’m a senior research engineer at [PetaGene][].
 
-    In my previous life I was a postdoctoral researcher in [Eric Miska’s
-    group][eam] at the [University of Cambridge][] ([Gurdon Institute][]). My
-    PhD was supervised by John Marioni at the [European Bioinformatics
-    Institute][EBI] (<abbr>[EMBL][]</abbr>-<abbr>EBI</abbr>).
+    Before that I was a postdoctoral researcher in [Eric Miska’s group][eam]
+    ([Gurdon Institute][]). I have a PhD from the [University of Cambridge][],
+    supervised by John Marioni at the [European Bioinformatics Institute][EBI]
+    (<abbr>[EMBL][]</abbr>-<abbr>EBI</abbr>).
 
     Here are some of the things I do:
 
@@ -34,11 +34,11 @@ meta: |
 
 ## Research
 
-I’m a bioinformatician/geneticist by training. Most of my research was in
-genomics and the regulation of gene translation in mammals through changes in
-<abbr>tRNA</abbr> abundance and codon usage. My [PhD thesis][] was on
-*“Investigating the link between <abbr>tRNA</abbr> and <abbr>mRNA</abbr>
-abundance in mammals”*.
+I’m a bioinformatician/geneticist by training and a software engineer by
+calling. Most of my research was in genomics and the regulation of gene
+translation in mammals through changes in <abbr>tRNA</abbr> abundance and codon
+usage. My [PhD thesis][] was on *“Investigating the link between
+<abbr>tRNA</abbr> and <abbr>mRNA</abbr> abundance in mammals”*.
 
 Previously I’ve worked in algorithms, in particular implementing high-throughput
 sequencing read mapping tools, and creating frameworks for the automatic
