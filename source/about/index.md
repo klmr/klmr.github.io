@@ -108,11 +108,6 @@ most active contributors of all time.
 For more, see my [Google Scholar profile][]. <small>\* indicates joint first
 authors</small>
 
-## <abbr>CV</abbr>
-
-You can find my more or less up-to-date <abbr>CV</abbr> as a [Developer Story on
-Stack Overflow][cv].
-
 [PhD thesis]: https://github.com/klmr/thesis
 [R]: http://r-project.org
 [box]: https://github.com/klmr/box
@@ -125,8 +120,6 @@ Stack Overflow][cv].
 [bib-1]: https://doi.org/10.1101/gr.176784.114
 [bib-2]: https://doi.org/10.1371/journal.pgen.1006024
 [bib-3]: https://doi.org/10.1016/j.molcel.2019.03.010
-[cv]: https://stackoverflow.com/story/klmr
-[cv-source]: https://github.com/klmr/cv
 [Stack Overflow]: https://stackoverflow.com/users/1968/konrad-rudolph
 [GitHub]: https://github.com/klmr
 
