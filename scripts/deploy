@@ -3,7 +3,7 @@
 set -euo pipefail
 
 # Configuration
-remote_target=master
+remote_target=deployment
 destination=_site
 
 get-working-branch() {
@@ -20,7 +20,7 @@ trap cleanup EXIT
 remote="$(git remote | head -n 1)"
 working_branch="$(get-working-branch)"
 git stash push --include-untracked
-git branch --delete --force "$remote_target"
+git branch --delete --force "$remote_target" 2>/dev/null || :
 git checkout -b "$remote_target"
 
 git add --force "$destination"
