@@ -106,8 +106,8 @@ a:hover {
 #blurb::before {
     background: #073642 url(../img/arrows.png) 0 0 repeat;
     content: "";
-    height: 400%;
-    left: -50%;
+    height: 500%;
+    left: -500px;
     position: absolute;
     top: -100%;
     transform: rotate(20deg);
