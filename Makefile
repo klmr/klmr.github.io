@@ -9,6 +9,10 @@ build: install
 .PHONY: install
 install: Gemfile.lock
 
+.PHONY: reinstall
+reinstall:
+	bundler install
+
 .PHONY: deploy
 deploy: build
 	scripts/deploy
