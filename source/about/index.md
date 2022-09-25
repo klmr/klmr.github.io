@@ -6,15 +6,13 @@ blurb: |
     <div class="row"><div class="eight columns">
     Hi. 👋 My name is Konrad.
 
-    I’m a senior research engineer at [PetaGene][].
+    I’m a senior scientists at [Roche Pharma R*&*D (pRED)][pRED].
 
-    Before that I was a postdoctoral researcher in [Eric Miska’s group][eam]
-    ([Gurdon Institute][]). I have a PhD from the [University of Cambridge][],
-    supervised by John Marioni at the [European Bioinformatics Institute][EBI]
-    (<abbr>[EMBL][]</abbr>-<abbr>EBI</abbr>).
+    Before that I was a senior research engineer at [PetaGene][] and a postdoctoral researcher in [Eric Miska’s group][eam] ([Gurdon Institute][]). I have a PhD from the [University of Cambridge][], supervised by John Marioni at the [European Bioinformatics Institute][EBI] (<abbr>[EMBL][]</abbr>-<abbr>EBI</abbr>).
 
     Here are some of the things I do:
 
+    [pRED]: https://www.roche.com/innovation/structure/pred/
     [PetaGene]: https://www.petagene.com/
     [eam]: http://ericmiskalab.org/
     [Gurdon Institute]: http://www.gurdon.cam.ac.uk/
@@ -34,38 +32,21 @@ meta: |
 
 ## Research
 
-I’m a bioinformatician/geneticist by training and a software engineer by
-calling. Most of my research was in genomics and the regulation of gene
-translation in mammals through changes in <abbr>tRNA</abbr> abundance and codon
-usage. My [PhD thesis][] was on *“Investigating the link between
-<abbr>tRNA</abbr> and <abbr>mRNA</abbr> abundance in mammals”*.
+I’m a bioinformatician/geneticist by training and a software engineer by calling. Most of my research was in genomics and the regulation of gene translation in mammals through changes in <abbr>tRNA</abbr> abundance and codon usage. My [PhD thesis][] was on *“Investigating the link between <abbr>tRNA</abbr> and <abbr>mRNA</abbr> abundance in mammals”*.
 
-Previously I’ve worked in algorithms, in particular implementing high-throughput
-sequencing read mapping tools, and creating frameworks for the automatic
-parallelisation of high-performance code on multicore architecture. I have also
-done work in cell regulatory networks.
+Previously I’ve worked in algorithms, in particular implementing high-throughput sequencing read mapping tools, and creating frameworks for the automatic parallelisation of high-performance code on multicore architecture. I have also done work in cell regulatory networks.
 
 ## Open Source
 
-I contribute prolifically to various Open Source projects. Some of my own most
-widely used projects are:
+I contribute to various Open Source projects. Some of my own most widely used projects are:
 
-* **[box][]**: A package for the [R programming language][R] that enables
-    writing reusable, composable and modular R code<span class="gh-stars"
-    data-repo="klmr/box"></span>
+* **[box][]**: A package for the [R programming language][R] that enables writing reusable, composable and modular R code<span class="gh-stars" data-repo="klmr/box"></span>
 
-* **[named-operator][]**: A small C++ helper that adds named operators to the
-    language through operator overloading and templates, without macros;
-    inspired a function in a [Boost library][boost.hof]<span class="gh-stars"
-    data-repo="klmr/named-operator"></span>
+* **[named-operator][]**: A small C++ helper that adds named operators to the language through operator overloading and templates, without macros; inspired a function in a [Boost library][boost.hof]<span class="gh-stars" data-repo="klmr/named-operator"></span>
 
-* **[minted][]**, a syntax highligher package for
-    [<span style="letter-spacing: -0.3em">L</span><span style="font-size: 0.7em; letter-spacing: -0.1em; vertical-align: 0.3em">A</span><span style="letter-spacing: -0.1em">T</span><span style="letter-spacing: -0.1em; vertical-align: -0.2em;">E</span>X][LaTeX]
-    based on
-    [Pygments][]<span class="gh-stars" data-repo="gpoore/minted"></span>
+* **[minted][]**, a syntax highligher package for [<span style="letter-spacing: -0.3em">L</span><span style="font-size: 0.7em; letter-spacing: -0.1em; vertical-align: 0.3em">A</span><span style="letter-spacing: -0.1em">T</span><span style="letter-spacing: -0.1em; vertical-align: -0.2em;">E</span>X][LaTeX] based on [Pygments][]<span class="gh-stars" data-repo="gpoore/minted"></span>
 
-To see more of my contributions to Open Source projects, visit my  [GitHub
-profile][GitHub].
+To see more of my contributions to Open Source projects, visit my  [GitHub profile][GitHub].
 
 ## Teaching
 
@@ -78,35 +59,17 @@ I have, at various times, taught on the following subjects:
 * C++ · <abbr>VB</abbr> · Unix/Bash · <span style="letter-spacing: -0.3em">L</span><span style="font-size: 0.7em; letter-spacing: -0.1em; vertical-align: 0.3em">A</span><span style="letter-spacing: -0.1em">T</span><span style="letter-spacing: -0.1em; vertical-align: -0.2em;">E</span>X · R · Git
 * Basics of data compression
 
-I’m also occasionally active on [Stack Overflow][], where I’m one of the 0.01%
-most active contributors of all time.
+I’m also occasionally active on [Stack Overflow][], where I’m one of the 0.01% most active contributors of all time.
 
 ## Selected publications
 
-* <span class="bib authors">E Maori, I Cunha Navarro, H Boncristiani, DJ Seilly,
-  **KLM Rudolph**, A Sapetschnig, C Lin, JE Ladbury, JD Evans, JL Heeney *&* EA
-  Miska</span>: [<span class="bib title">A secreted RNA binding protein forms
-  RNA-stabilizing granules in the honeybee royal jelly</span>][bib-3]. <span
-  class="bib journal">Mol Cell</span>, <span class="bib issue">74, 1–11</span>
-  (<span class="bib date">May 2019</span>)
+* <span class="bib authors">E Maori, I Cunha Navarro, H Boncristiani, DJ Seilly, **KLM Rudolph**, A Sapetschnig, C Lin, JE Ladbury, JD Evans, JL Heeney *&* EA Miska</span>: [<span class="bib title">A secreted RNA binding protein forms RNA-stabilizing granules in the honeybee royal jelly</span>][bib-3]. <span class="bib journal">Mol Cell</span>, <span class="bib issue">74, 1–11</span> (<span class="bib date">May 2019</span>)
 
-* <span class="bib authors">**KLM Rudolph**\*, BM Schmitt\*, D Villar,
-  RJ White, JC Marioni, C Kutter *&* DT Odom</span>: [<span class="bib
-  title">“Codon-driven translational efficiency is stable across diverse
-  mammalian cell states”</span>][bib-2]. <span class="bib journal">PLoS
-  Genet</span>, <span class="bib issue">12(5): e1006024</span> (<span class="bib
-  date">May 2016</span>)
+* <span class="bib authors">**KLM Rudolph**\*, BM Schmitt\*, D Villar, RJ White, JC Marioni, C Kutter *&* DT Odom</span>: [<span class="bib title">“Codon-driven translational efficiency is stable across diverse mammalian cell states”</span>][bib-2]. <span class="bib journal">PLoS Genet</span>, <span class="bib issue">12(5): e1006024</span> (<span class="bib date">May 2016</span>)
 
-* <span class="bib authors">BM Schmitt\*, **KLM Rudolph**\*, P Karagianni,
-  NA Fonseca, RJ White, I Talianidis, DT Odom, JC Marioni, *&* C Kutter</span>:
-  [<span class="bib title">“High-resolution mapping of transcriptional dynamics
-  across tissue development reveals a stable <abbr>mRNA</abbr>–<abbr>tRNA</abbr>
-  interface”</span>][bib-1]. <span class="bib journal">Genome Res</span>, <span
-  class="bib issue">24(11):1797–807</span> (<span class="bib date">Nov
-  2014</span>)
+* <span class="bib authors">BM Schmitt\*, **KLM Rudolph**\*, P Karagianni, NA Fonseca, RJ White, I Talianidis, DT Odom, JC Marioni, *&* C Kutter</span>: [<span class="bib title">“High-resolution mapping of transcriptional dynamics across tissue development reveals a stable <abbr>mRNA</abbr>–<abbr>tRNA</abbr> interface”</span>][bib-1]. <span class="bib journal">Genome Res</span>, <span class="bib issue">24(11):1797–807</span> (<span class="bib date">Nov 2014</span>)
 
-For more, see my [Google Scholar profile][]. <small>\* indicates joint first
-authors</small>
+For more, see my [Google Scholar profile][]. <small>\* indicates joint first authors</small>
 
 [PhD thesis]: https://github.com/klmr/thesis
 [R]: http://r-project.org
