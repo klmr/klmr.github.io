@@ -59,7 +59,7 @@ I have, at various times, taught on the following subjects:
 * C++ · <abbr>VB</abbr> · Unix/Bash · <span style="letter-spacing: -0.3em">L</span><span style="font-size: 0.7em; letter-spacing: -0.1em; vertical-align: 0.3em">A</span><span style="letter-spacing: -0.1em">T</span><span style="letter-spacing: -0.1em; vertical-align: -0.2em;">E</span>X · R · Git
 * Basics of data compression
 
-I’m also occasionally active on [Stack Overflow][], where I’m one of the 0.01% most active contributors of all time.
+I’m also occasionally active on [Stack Overflow][], where I’m one of the top 0.01% contributors of all time.
 
 ## Selected publications
 
