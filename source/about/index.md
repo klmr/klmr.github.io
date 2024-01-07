@@ -1,5 +1,5 @@
 ---
-title: About me
+title: About Konrad
 layout: default
 image: /img/profile.jpg
 blurb: |
@@ -31,17 +31,19 @@ meta: |
     <meta property="profile:username" content="klmr"/>
 ---
 
-## Research
+## Research *&* development
 
 I’m a bioinformatician/geneticist by training and a software engineer by calling. Most of my research was in genomics and the regulation of gene translation in mammals through changes in <abbr>tRNA</abbr> abundance and codon usage. My [PhD thesis][] was on *“Investigating the link between <abbr>tRNA</abbr> and <abbr>mRNA</abbr> abundance in mammals”*.
 
 Previously I’ve worked in algorithms, in particular implementing high-throughput sequencing read mapping tools, and creating frameworks for the automatic parallelisation of high-performance code on multicore architecture. I have also done work in cell regulatory networks.
 
+Lately my efforts have shifted towards managing the necessary tools and data to enable research: it is not enough to perform experiments and generate data; to analyse it and draw conclusions, this data also needs to be accessible and curated, and there need to be tools to work with the data in an effective, repeatable and robust/error-proof way. Part of this is often described under the umbrella of [FAIR data][]: **f**indable, **a**ccessible, **i**nteroperable *&* **r**eusable. But this is only one side of the coin: the tools used for data analysis and reporting likewise need to be correct and usable. Providing a robust research code infrastructure is therefore paramount, and has been the focus both of my day-to-day work, mentoring and long-term strategic thinking over the last years.
+
 ## Open Source
 
 I contribute to various Open Source projects. Some of my own most widely used projects are:
 
-* **[box][]**: A package for the [R programming language][R] that enables writing reusable, composable and modular R code<span class="gh-stars" data-repo="klmr/box"></span>
+* **[box][]**: A package that implements a modern module system for the [R programming language][R]<span class="gh-stars" data-repo="klmr/box"></span>
 
 * **[named-operator][]**: A small C++ helper that adds named operators to the language through operator overloading and templates, without macros; inspired a function in a [Boost library][boost.hof]<span class="gh-stars" data-repo="klmr/named-operator"></span>
 
@@ -49,18 +51,20 @@ I contribute to various Open Source projects. Some of my own most widely used pr
 
 To see more of my contributions to Open Source projects, visit my  [GitHub profile][GitHub].
 
-## Teaching
+## Mentoring
 
-I have, at various times, taught on the following subjects:
+I believe that one of the most important and fulfilling things we can do is to share knowledge and provide guidance to others, and mentoring — both formally or informally — has therefore always been a large part of my life.
+
+In addition I have, at various times, taught courses on the following subjects:
 
 * High-throughput sequence analysis
-* <abbr title="computer science">CS</abbr> 101 *&* <abbr title="computer science">CS</abbr> 102
+* <abbr title="computer science">CS</abbr> 101 *&* <abbr>CS</abbr> 102
 * Algorithms in bioinformatics
 * Database systems *&* <abbr>SQL</abbr>
 * C++ · <abbr>VB</abbr> · Unix/Bash · <span style="letter-spacing: -0.3em">L</span><span style="font-size: 0.7em; letter-spacing: -0.1em; vertical-align: 0.3em">A</span><span style="letter-spacing: -0.1em">T</span><span style="letter-spacing: -0.1em; vertical-align: -0.2em;">E</span>X · R · Git
 * Basics of data compression
 
-I’m also occasionally active on [Stack Overflow][], where I’m one of the top 0.01% contributors of all time.
+I’m also occasionally active on [Stack Overflow][], where I’m one of the all-time top 0.01% contributors.
 
 ## Selected publications
 
@@ -86,6 +90,7 @@ For more, see my [Google Scholar profile][]. <small>\* indicates joint first aut
 [bib-3]: https://doi.org/10.1016/j.molcel.2019.03.010
 [Stack Overflow]: https://stackoverflow.com/users/1968/konrad-rudolph
 [GitHub]: https://github.com/klmr
+[FAIR data]: https://en.wikipedia.org/wiki/FAIR_data
 
 <script>
 ;(() => {
