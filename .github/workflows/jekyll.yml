@@ -27,11 +27,6 @@ jobs:
           ruby-version: '3.1'
           bundler-cache: true
           cache-version: 0
-      - name: Cache dependencies
-        uses: actions/cache@v4.0.1
-        with:
-          path: vendor
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
       - name: Set up Pages
         id: pages
         uses: actions/configure-pages@v4
