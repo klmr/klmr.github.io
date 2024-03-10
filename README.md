@@ -1,13 +1,10 @@
 Deployment
 ==========
 
-This repository is processed locally since it’s using plugins that aren’t
-supported by GitHub at the moment. To avoid processing twice (although it
-*should* be safe since Jekyll is almost idempotent in practice), the repository
-is marked `.nojekyll`.
+Deployment happens via [GitHub Actions](https://github.com/klmr/klmr.github.io/actions/workflows/jekyll.yml).
 
-Deployment happens via
+To test locally, run:
 
 ```bash
-make deploy
+make run
 ```
