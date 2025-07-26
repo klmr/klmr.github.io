@@ -6,13 +6,13 @@ blurb: |
     <div class="row"><div class="eight columns">
     Hi. 👋 My name is Konrad.
 
-    I’m a senior scientist at [Roche Pharma R*&*D (pRED)][pRED], where I am contributing to the [FAIRification of research data][fair].
+    I’m a principal scientist at [Roche Pharma R*&*D][pRED], where I am contributing to the [FAIRification of research data][fair].
 
     Previously I was a senior research engineer at [PetaGene][] and a postdoctoral researcher in [Eric Miska’s group][eam] ([Gurdon Institute][]). I have a PhD from the [University of Cambridge][], supervised by John Marioni at the [European Bioinformatics Institute][EBI] (<abbr>[EMBL][]</abbr>-<abbr>EBI</abbr>).
 
     Here are some of the things I do:
 
-    [pRED]: https://www.roche.com/innovation/structure/pred/
+    [pRED]: https://www.roche.com/stories/predcenter
     [fair]: https://en.wikipedia.org/wiki/FAIR_data
     [PetaGene]: https://www.petagene.com/
     [eam]: http://ericmiskalab.org/
@@ -22,7 +22,7 @@ blurb: |
     [EBI]: http://www.ebi.ac.uk
 
     </div><div class="four columns">
-    <img id="profile" src="/img/profile-med-alpha.png"/>
+    <img id="profile" src="/img/profile.png"/>
     </div></div>
 meta: |
     <meta property="og:type" content="profile"/>

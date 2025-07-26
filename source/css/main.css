@@ -69,7 +69,7 @@ article p + p {
 }
 
 #profile {
-    border-radius: 100%;
+    border-radius: 4rem;
     display: block;
     margin: 0 auto;
     max-width: 100%;
