@@ -1,6 +1,8 @@
 /* reset */
 abbr[title], acronym[title] {
-    text-decoration: inherit;
+    border-bottom: none;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 1px;
 }
 
 body {
@@ -79,18 +81,21 @@ article p + p {
 }
 
 a {
-    border-bottom: 1px solid #8a90a7;
     color: #8a90a7;
-    text-decoration: none;
+    text-decoration-color: #8a90a7;
+    transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    -webkit-transition: 0.2s ease-in-out;
 }
 
 a:hover {
     color: inherit;
-    border-bottom-color: transparent;
-    transition: 0.3s ease-in-out;
-    -moz-transition: 0.3s ease-in-out;
-    -o-transition: 0.3s ease-in-out;
-    -webkit-transition: 0.3s ease-in-out;
+    text-decoration-color: transparent;
+    transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    -webkit-transition: 0.2s ease-in-out;
 }
 
 #blurb {
